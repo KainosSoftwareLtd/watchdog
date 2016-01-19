@@ -33,14 +33,16 @@ To run the image you can do the following:
  - docker run --rm -it -e "GAUNTLT_ATTACK_SUBJECT=www.google.com" -v /attacks:/data moomzni/gauntlt
   - You should replace 'www.google.com' with your intended attack subject
 
-## Teamcity Integration
-Both Teamcity and the agent servers have docker installed via puppet (docker-io package from EPEL); the agents already have sudo access so the invocation of any docker command by an agent simply needs to be preceeded by sudo e.g. sudo docker ps -a.
+## Running on CI
+So as we're running docker images we need to make sure that docker is installed and available on the CI server and its agents; if using Centos the EPEL repository contains a docker-io package.
 
-We need to mount the gauntlt tests we want to execute within the docker container.  To do this we simply have a VCS root setup on Teamcity to checkout this repository and mount the 'attacks/' folder within the container as follows: -v -v %teamcity.build.checkoutDir%/attacks:/data
+The invocation of the docker containers will require sudo access; this may or may not require changes to your existing CI sudoers rules depending on how liberal/restricted your current setup is.
+
+We need to make the ./attacks folder available to the docker container at runtime so gauntlt executes the tests we expect.  To do this we simply have a to determine the absolute path for the git checkout directory and mount the 'attacks/' folder within the container as follows: -v -v <YOUR ABSOLUTE PATH HERE>/attacks:/data
 
 Some other considerations are listed below:
 
- - The '-i' option cannot be used within a teamcity job as by its nature it is not an interactive job
+ - The '-i' option cannot be used within a CI job as - by its nature - it is not an interactive process
  - The '--rm' flag should be specified to ensure images are removed/deleted once they have completed processing.
 
 
@@ -48,3 +50,4 @@ Some other considerations are listed below:
 
  - Currently only supports Centos
  - Has only been tested with Centos 6.6
+ - Has currently only been tested with TeamCity v9.0
