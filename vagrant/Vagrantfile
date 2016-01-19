@@ -1,0 +1,51 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.require_version ">= 1.7.4"
+
+VAGRANTFILE_API_VERSION = "2"
+
+#**************************************************************************************************************
+# Build - Used to generate a fresh docker image for gauntlt using the definition in ./build/Dockerfile
+# Run   - Used to download a previously pushed version of the docker image for running gauntlt
+#**************************************************************************************************************
+
+hosts = [
+  { name: 'build', ip_address: "192.168.99.10", memory: "1024", cpus: "1", },
+  { name: 'run',   ip_address: "192.168.99.11", memory: "1024", cpus: "1", }
+]
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "puppetlabs/centos-6.6-64-nocm"
+  hosts.each do |host|
+    config.vm.define host[:name] do |host_config|
+      host_config.vm.hostname = host[:name]
+      host_config.vm.network :private_network, ip: host[:ip_address], netmask: "255.255.255.0"
+
+      # VB Configuration Parameters
+      modifyvm_args = ["modifyvm", :id]
+      modifyvm_args << "--name" << host[:name]
+      modifyvm_args << "--memory" << host[:memory]
+      modifyvm_args << "--cpus" << host[:cpus]
+      modifyvm_args << "--ioapic" << "on"
+      modifyvm_args << "--natdnshostresolver1" << "on"
+
+      host_config.vm.provider :virtualbox do |vb|
+        vb.customize(modifyvm_args)
+        vb.gui = false
+      end
+
+      host_config.vm.provision 'docker' do |d|
+        if host[:name] == 'build' then 
+          d.build_image '/vagrant/build', args: '-t moomzni/gauntlt'
+        else
+          d.pull_images 'moomzni/gauntlt'
+          #d.run 'moomzni/gauntlt', image: 'moomzni/gauntlt', args: '-v /attacks:/data', daemonize: false
+        end
+      end
+    end
+    config.vbguest.auto_update = true
+    config.vm.synced_folder "../attacks", "/attacks"
+    config.cache.scope = :box
+  end
+end

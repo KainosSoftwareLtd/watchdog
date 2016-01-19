@@ -1,0 +1,17 @@
+Feature: simple nmap attack to check for open ports
+
+  Background:
+    Given the "ping" command line binary is installed
+    And the following environment variables:
+      | name     | environment_variable_name |
+      | hostname | GAUNTLT_ATTACK_SUBJECT    |
+
+  Scenario: Pings should be blocked
+    When I launch a "generic" attack with:
+      """
+      ping -c 1 -t 1 <hostname>
+      """
+    Then the output should match:
+    """
+    100% packet loss
+    """

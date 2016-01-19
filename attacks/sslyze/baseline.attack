@@ -1,0 +1,74 @@
+Feature: Run sslyze against a environment
+
+  Background:
+    Given "sslyze" is installed
+    And the following environment variables:
+      | name     | environment_variable_name |
+      | hostname | GAUNTLT_ATTACK_SUBJECT    |
+
+    And the following profile:
+      | name       | value |
+      | https_port | 443   |
+
+  Scenario: Check for Heartbleed Vulnerability
+    When I launch an "sslyze" attack with:
+      """
+      python <sslyze_path> --heartbleed <hostname>:<https_port>
+      """
+    Then the output should contain:
+      """
+      OK - Not vulnerable to Heartbleed
+      """
+
+  Scenario: Ensure SSLv2 support is disabled
+    When I launch an "sslyze" attack with:
+      """
+      python <sslyze_path> --sslv2 --hide_rejected_ciphers <hostname>:<https_port>
+      """
+    Then the output should contain:
+      """
+      Server rejected all cipher suites
+      """
+
+  Scenario: Ensure SSLv3 support is disabled
+    When I launch an "sslyze" attack with:
+      """
+      python <sslyze_path> --sslv3 --hide_rejected_ciphers <hostname>:<https_port>
+      """
+    Then the output should contain:
+      """
+      Server rejected all cipher suites
+      """
+
+  Scenario: Ensure Session Renegotiation is secure
+    When I launch an "sslyze" attack with:
+      """
+      python <sslyze_path> --reneg <hostname>:<https_port>
+      """
+    Then the output should match /Client-initiated Renegotiations:\s+OK - Rejected/
+    And the output should match /Secure Renegotiation:\s+OK - Supported/
+
+  Scenario: Check SSL Certificate is valid
+    When I launch an "sslyze" attack with:
+      """
+      python <sslyze_path> --certinfo=basic <hostname>:<https_port>
+      """
+    Then the output should match /Hostname Validation:\s+OK - Subject Alternative Name matches/
+    And the output should match /Google CA Store (.*):\s+OK - Certificate is trusted/
+    And the output should match /Java 6 CA Store (.*):\s+OK - Certificate is trusted/
+    And the output should match /Microsoft CA Store (.*):\s+OK - Certificate is trusted/
+    And the output should match /Mozilla NSS CA Store (.*):\s+OK - Certificate is trusted/
+    And the output should match /Apple CA Store (.*):\s+OK - Certificate is trusted/
+    And the output should match /OCSP Response Status:\s+successful/
+    And the output should match /Cert Status:\s+good/
+
+#  Disabled until we determine the cause of HSTS headers being turned off 
+#  Scenario: Check for presence of HSTS header
+#    When I launch an "sslyze" attack with:
+#      """
+#      python <sslyze_path> --hsts <hostname>:<https_port>
+#      """
+#    Then the output should not contain:
+#      """
+#      NOT SUPPORTED - Server did not send an HSTS header.
+#      """

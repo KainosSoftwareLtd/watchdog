@@ -1,0 +1,5 @@
+vagrant/.vagrant*
+attacks/tmp
+attacks/*.afr
+attacks/*/tmp
+

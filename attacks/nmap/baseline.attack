@@ -1,0 +1,25 @@
+Feature: simple nmap based attacks against an environment to check for open ports, webserver type etc
+
+  Background:
+    Given "nmap" is installed
+    And the following environment variables:
+      | name     | environment_variable_name |
+      | hostname | GAUNTLT_ATTACK_SUBJECT    |
+
+  @slow
+  Scenario: Basic Website Check
+    When I launch an "nmap" attack with:
+      """
+      nmap -F -sV <hostname>
+      """
+    Then the output should match /Host is up/
+    And the output should match:
+    """
+    443/tcp\s+open\s+http\s+nginx
+    """
+
+    # Ensure that no ports other than 22, 80 and 443 are open
+    And the output should not match:
+    """
+    (?<!22|80|443)/\w+\s+open
+    """
