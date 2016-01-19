@@ -1,14 +1,14 @@
 # Watchdog
 
 ## Description
-This repository is intended to automate security/assurance testing for Rural Payments environments.
+This repository is intended to automate security/assurance testing for web services.
 
-The idea is that we use docker on teamcity to launch a container running gauntlt; to this we would pass in a sequence of tests to be executed against the environments (./attacks) where the observed results would be compared against the expected results.
+The intention is that we use docker on our continuous integration server to launch a container running gauntlt; to this we would pass in a sequence of tests to be executed against the web service (./attacks) where the observed results would be compared against the expected results.
 
 This enables security to be audited over time and automates the execution of tests.
 
 ## Why Docker?
-Docker enables us to have an immutable way of deploying an isolated 'environment' comprising of all of the security tools that Gauntlt can leveridge without having to install them natively on the teamcity/agent servers.
+Docker enables us to have an immutable way of deploying an isolated 'environment' comprising of all of the security tools that Gauntlt can leverage without having to install them natively on the continuous integration server or its agents.
 
 As docker relies upon images this repository gives us both a way of generating a new image - containing all required security tooling - and executing the pre-existing image.
 
@@ -44,13 +44,7 @@ Some other considerations are listed below:
  - The '--rm' flag should be specified to ensure images are removed/deleted once they have completed processing.
 
 
-## Comments
-[DS] This is a good idea! Some things to consider and maybe ellaborate a bit more about it could be:
-* Housekeeping of the containers -  creating, starting, stopping and removing [CG] - Answered
-* Image distribuiton - where do we build, save and share [CG] - Answered
-* Any networking considerations we need to take into account to have the contained gauntlt instance reaching all the envs [CG] - Answered
-* If using data volumes lets make sure they are housekept following the same guidelines we'll be using for containers [CG] - Answered
-* Is the intention to run gauntlt continuously i.e. triggering a build after event x? if yes we should have consensus on what kind of attacks we'll be allowing during office hours and/or while validation testing is in progress
+## Caveats
 
-[MS] As long as I'm fine with this, I can't see any cons of installing gauntlt gem instead of using docker? Especially, just for one 'service'. [CG] This isn't just the gauntlt gem, it is all of the tooling that it leveridges underneath.
-
+ - Currently only supports Centos
+ - Has only been tested with Centos 6.6
