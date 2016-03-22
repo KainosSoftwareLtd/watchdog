@@ -46,6 +46,9 @@ RUN cd /opt && git clone https://github.com/freddyb/Garmr.git && \
     cd Garmr && scl enable python27 "python setup.py install" && \
     scl enable python27 "pip install BeautifulSoup"
 
+# Install JSON Gem as SCL means this isn't available in the restricted runtime environment
+RUN scl enable ruby193 "gem install json --no-ri --no-rdoc"
+
 # Remove unnecessary packages
 RUN yum remove -y unzip \
     wget \
@@ -57,7 +60,8 @@ VOLUME ["/data"]
 WORKDIR /data
 
 # Expose path so it is able to reference sqlmap/sslyze
-ENV PATH /usr/local/bin:/opt/arachni/bin:$PATH
+# The inclusion of the additional rubvy path value is required for referencing gems installed via SCL ruby
+ENV PATH /usr/local/bin:/opt/arachni/bin:/opt/rh/ruby193/root/usr/local/bin:$PATH
 
 ENV SSLYZE_PATH /usr/local/bin/sslyze
 
