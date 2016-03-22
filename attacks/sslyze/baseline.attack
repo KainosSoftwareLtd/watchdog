@@ -62,13 +62,12 @@ Feature: Run sslyze against a environment
     And the output should match /OCSP Response Status:\s+successful/
     And the output should match /Cert Status:\s+good/
 
-#  Disabled until we determine the cause of HSTS headers being turned off 
-#  Scenario: Check for presence of HSTS header
-#    When I launch an "sslyze" attack with:
-#      """
-#      python <sslyze_path> --hsts <hostname>:<https_port>
-#      """
-#    Then the output should not contain:
-#      """
-#      NOT SUPPORTED - Server did not send an HSTS header.
-#      """
+  Scenario: Check for presence of HSTS header
+    When I launch an "sslyze" attack with:
+      """
+      python <sslyze_path> --hsts <hostname>:<https_port>
+      """
+    Then the output should not contain:
+      """
+      NOT SUPPORTED - Server did not send an HSTS header.
+      """
