@@ -65,4 +65,4 @@ ENV PATH /usr/local/bin:/opt/arachni/bin:/opt/rh/ruby193/root/usr/local/bin:$PAT
 
 ENV SSLYZE_PATH /usr/local/bin/sslyze
 
-CMD bash -c 'scl enable ruby193 "gauntlt -f progress"'
+CMD bash -c 'scl enable ruby193 python27 "gauntlt -f progress"'
