@@ -5,6 +5,10 @@ Vagrant.require_version ">= 1.7.4"
 
 VAGRANTFILE_API_VERSION = "2"
 
+@required_plugins = [ 'vagrant-cachier', 'vagrant-vbguest' ]
+
+require_relative "./vagrant_requires.rb"
+
 #**************************************************************************************************************
 # Build - Used to generate a fresh docker image for gauntlt using the definition in ./build/Dockerfile
 # Run   - Used to download a previously pushed version of the docker image for running gauntlt
@@ -36,7 +40,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       end
 
       host_config.vm.provision 'docker' do |d|
-        if host[:name] == 'build' then 
+        if host[:name] == 'build' then
           d.build_image '/vagrant/build', args: '-t moomzni/gauntlt'
         else
           d.pull_images 'moomzni/gauntlt'

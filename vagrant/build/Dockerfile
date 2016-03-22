@@ -14,21 +14,13 @@ RUN yum makecache && yum install -y curl \
   gcc \
   which \
   ruby-devel \
-  rubygems
+  rubygems \
+  scl-utils \
+  centos-release-scl-rh
 
-# Install RVM and switch to Ruby 1.9.3 as default and install gauntlt
-RUN cd /tmp && gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 && \
-  curl -sSL https://get.rvm.io | bash -s stable && \
-  bash -c "source /etc/profile.d/rvm.sh && rvm install 1.9.3 && rvm default 1.9.3 && ruby -v && gem install gauntlt --no-ri --no-rdoc"
+RUN yum install -y ruby193 ruby193-ruby-devel python27
 
-# Install Python 2.7 as it is required by some of the third party tools
-RUN cd /tmp && wget -nv https://www.python.org/ftp/python/2.7.11/Python-2.7.11.tgz && \
-    tar xzf Python-2.7.11.tgz && \
-    cd Python-2.7.11 && ./configure && make altinstall && make bininstall
-
-# Install Python setuptools and pip
-RUN wget -nv https://bootstrap.pypa.io/ez_setup.py -O - | python && \
-    easy_install-2.7 pip
+RUN scl enable ruby193 "gem install gauntlt --no-ri --no-rdoc"
 
 # Install additional third-party tools
 
@@ -51,8 +43,8 @@ RUN cd /tmp && wget -nv https://www.github.com/Arachni/arachni/releases/download
 
 # Install Garmr
 RUN cd /opt && git clone https://github.com/freddyb/Garmr.git && \
-    cd Garmr && python setup.py install && \
-    pip install BeautifulSoup
+    cd Garmr && scl enable python27 "python setup.py install" && \
+    scl enable python27 "pip install BeautifulSoup"
 
 # Remove unnecessary packages
 RUN yum remove -y unzip \
@@ -69,4 +61,4 @@ ENV PATH /usr/local/bin:/opt/arachni/bin:$PATH
 
 ENV SSLYZE_PATH /usr/local/bin/sslyze
 
-CMD bash -c 'source /etc/profile.d/rvm.sh && gauntlt -f progress'
+CMD bash -c 'scl enable ruby193 "gauntlt -f progress"'
