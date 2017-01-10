@@ -18,6 +18,8 @@ RUN yum makecache && yum install -y curl \
   scl-utils \
   centos-release-scl-rh
 
+RUN yum install zlib-devel -y
+
 RUN yum install -y ruby193 ruby193-ruby-devel python27
 
 RUN scl enable ruby193 "gem install gauntlt --no-ri --no-rdoc"
