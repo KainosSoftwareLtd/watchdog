@@ -49,7 +49,7 @@ RUN cd /opt && git clone https://github.com/freddyb/Garmr.git && \
     scl enable python27 "pip install BeautifulSoup"
 
 # Install JSON Gem as SCL means this isn't available in the restricted runtime environment
-RUN scl enable ruby193 "gem install json --no-ri --no-rdoc"
+RUN scl enable ruby193 "gem install json -v 1.8.3 --no-ri --no-rdoc"
 
 # Remove unnecessary packages
 RUN yum remove -y unzip \
