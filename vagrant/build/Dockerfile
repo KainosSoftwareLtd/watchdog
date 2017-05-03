@@ -27,7 +27,7 @@ RUN scl enable ruby193 "gem install gauntlt --no-ri --no-rdoc"
 # Install additional third-party tools
 
 #Setup sslyze
-RUN cd /tmp && wget -nv https://github.com/nabla-c0d3/sslyze/releases/download/release-0.12/sslyze-0_12-linux64.zip && \
+RUN cd /tmp && wget -nv https://github.com/nabla-c0d3/sslyze/releases/download/0.12.0/sslyze-0_12-linux64.zip && \
   unzip sslyze-0_12-linux64.zip && rm -f sslyze-0_12-linux64.zip && \
   mv sslyze /opt && \
   ln -s /opt/sslyze/sslyze.py /usr/local/bin/sslyze
