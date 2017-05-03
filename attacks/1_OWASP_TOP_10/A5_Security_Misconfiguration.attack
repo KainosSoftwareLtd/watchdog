@@ -1,0 +1,23 @@
+Feature: Tests covering OWASP A3 Cross-site scripting
+
+  Background:
+    Given "arachni" is installed
+    And the following environment variables:
+      | name     | environment_variable_name |
+      | hostname | GAUNTLT_ATTACK_SUBJECT    |
+
+  @reallyslow
+  Scenario: Execute source code disclosure attacks and verify no code is leaked
+    When I launch an "arachni" attack with:
+      """
+      arachni --checks=source_code_disclosure https://<hostname>
+      """
+      Then the output should contain "0 issues were detected."
+
+  @reallyslow
+  Scenario: Execute file based attacks and verify no issues are found
+    When I launch an "arachni" attack with:
+      """
+      arachni --checks=file_inclusion,path_traversal,common_files,rfi https://<hostname>
+      """
+    Then the output should contain "0 issues were detected."
