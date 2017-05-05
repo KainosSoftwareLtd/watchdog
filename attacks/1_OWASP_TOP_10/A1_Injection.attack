@@ -9,9 +9,9 @@ Feature: Tests covering OWASP A1 Injection
   @reallyslow
   Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
-    """
-    arachni --checks=sql_injection* https://<hostname>
-    """
+      """
+      arachni --checks=sql_injection* https://<hostname>
+      """
     Then the output should contain "0 issues were detected."
 
   @reallyslow
@@ -25,15 +25,24 @@ Feature: Tests covering OWASP A1 Injection
   @reallyslow
   Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
-    """
-    arachni --checks=ldap_injection* https://<hostname>
-    """
+      """
+      arachni --checks=ldap_injection* https://<hostname>
+      """
     Then the output should contain "0 issues were detected."
 
   @reallyslow
   Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
-    """
-    arachni --checks=xpath_injection* https://<hostname>
-    """
+      """
+      arachni --checks=xpath_injection* https://<hostname>
+      """
+    Then the output should contain "0 issues were detected."
+
+  @reallyslow
+  Scenario: Using arachni, look for xml external entity processing vunerabilities
+  # https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing
+    When I launch an "arachni" attack with:
+      """
+      arachni --checks=xxe https://<hostname>
+      """
     Then the output should contain "0 issues were detected."

@@ -1,4 +1,4 @@
-Feature: Tests covering OWASP A3 Cross-site scripting
+Feature: Tests covering OWASP A5 Security Misconfiguration
 
   Background:
     Given "arachni" is installed

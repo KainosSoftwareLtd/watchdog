@@ -1,4 +1,5 @@
-Feature: Tests covering OWASP A2 Broken Authentication and Session Management
+Feature: Tests covering OWASP A8 Cross-site Request Forgery
+  https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS)
 
   Background:
     Given "arachni" is installed
@@ -7,9 +8,9 @@ Feature: Tests covering OWASP A2 Broken Authentication and Session Management
       | hostname | GAUNTLT_ATTACK_SUBJECT    |
 
   @reallyslow
-  Scenario: Execute cookie based attacks and verify no issues are found
+  Scenario: Execute cross site request forgery attacks and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=session_fixation https://<hostname>
+      arachni --checks=csrf https://<hostname>
       """
     Then the output should contain "0 issues were detected."
