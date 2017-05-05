@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c08c2350-579a-4d8e-8cb5-8ec031d96ae6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/in_prog/A4_Broken_Access_Control.attack" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/attacks/nmap/baseline.attack" afterPath="$PROJECT_DIR$/in_prog/nmap/baseline.attack" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/attacks/sslyze/baseline.attack" afterPath="$PROJECT_DIR$/in_prog/sslyze/baseline.attack" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/in_prog/A7_Missing_Function_Level_Access_Control.attack" afterPath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A1_Injection.attack" afterPath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A1_Injection.attack" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack" afterPath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A5_Security_Misconfiguration.attack" afterPath="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A5_Security_Misconfiguration.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb" />
     </list>
     <ignored path="watchdog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,15 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="A1_Injection.attack" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <file leaf-file-name="arachni_login.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <marker date="1493985237000" expanded="true" signature="233:392" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
-                <marker date="1493985237000" expanded="true" signature="1357:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,6 +58,7 @@
         <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A1_Injection.attack" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb" />
       </list>
     </option>
   </component>
@@ -79,7 +69,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
@@ -939,15 +928,16 @@
       <option name="presentableId" value="Default" />
       <updated>1493902122328</updated>
       <workItem from="1493902125736" duration="758000" />
-      <workItem from="1493975443969" duration="5510000" />
+      <workItem from="1493975443969" duration="5630000" />
+      <workItem from="1493986222985" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6268000" />
+    <option name="totallyTimeSpent" value="6494000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1280" height="714" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -963,7 +953,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -974,6 +963,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -994,11 +984,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1493985237000" expanded="true" signature="46:229" ph="Background" />
+            <marker date="1493985237000" expanded="true" signature="233:392" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="233:523" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="392:395" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="459:462" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="527:833" ph="Scenario: Execute code injection attacks and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="663:666" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="769:772" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="837:1129" ph="Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="997:1000" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1065:1068" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1133:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="1294:1297" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1357:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="1363:1366" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1431:1768" ph="Scenario: Using arachni, look for xml external entity processing vunerabilities" />
+            <marker date="1493985237000" expanded="true" signature="1648:1651" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1704:1707" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="97" />
           <folding>
+            <marker date="1493985237000" expanded="true" signature="46:229" ph="Background" />
             <marker date="1493985237000" expanded="true" signature="233:392" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="233:523" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="392:395" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="459:462" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="527:833" ph="Scenario: Execute code injection attacks and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="663:666" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="769:772" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="837:1129" ph="Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="997:1000" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1065:1068" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1133:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="1294:1297" ph="..." />
             <marker date="1493985237000" expanded="true" signature="1357:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="1363:1366" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1431:1768" ph="Scenario: Using arachni, look for xml external entity processing vunerabilities" />
+            <marker date="1493985237000" expanded="true" signature="1648:1651" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1704:1707" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1010,27 +1043,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/attacks/arachni/baseline.attack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attacks/arachni/path_traversal.attack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni/baseline.attack" />
+    <entry file="file://$PROJECT_DIR$/attacks/arachni/path_traversal.attack" />
     <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,12 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <marker date="1493980929000" expanded="true" signature="81:264" ph="Background" />
-            <marker date="1493980929000" expanded="true" signature="268:535" ph="Scenario: Execute cookie based attacks and verify no issues are found" />
-            <marker date="1493980929000" expanded="true" signature="402:405" ph="..." />
-            <marker date="1493980929000" expanded="true" signature="471:474" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,15 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <marker date="1493980870000" expanded="true" signature="62:245" ph="Background" />
-            <marker date="1493980870000" expanded="true" signature="249:532" ph="Scenario: Execute source code disclosure attacks and verify no code is leaked" />
-            <marker date="1493980870000" expanded="true" signature="391:394" ph="..." />
-            <marker date="1493980870000" expanded="true" signature="466:469" ph="..." />
-            <marker date="1493980870000" expanded="true" signature="536:831" ph="Scenario: Execute file based attacks and verify no issues are found" />
-            <marker date="1493980870000" expanded="true" signature="668:671" ph="..." />
-            <marker date="1493980870000" expanded="true" signature="767:770" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,12 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="60" />
-          <folding>
-            <marker date="1493980815000" expanded="true" signature="76:259" ph="Background" />
-            <marker date="1493980815000" expanded="true" signature="263:509" ph="Scenario: Execute path traversal ; also part of A4" />
-            <marker date="1493980815000" expanded="true" signature="378:381" ph="..." />
-            <marker date="1493980815000" expanded="true" signature="445:448" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,12 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <marker date="1493980815000" expanded="true" signature="72:255" ph="Background" />
-            <marker date="1493980815000" expanded="true" signature="259:501" ph="Scenario: Execute unvalidated redirects" />
-            <marker date="1493980815000" expanded="true" signature="363:366" ph="..." />
-            <marker date="1493980815000" expanded="true" signature="437:440" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1093,15 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <marker date="1493981861000" expanded="true" signature="58:241" ph="Background" />
-            <marker date="1493981861000" expanded="true" signature="245:509" ph="Scenario: Execute file inclusion ; Insecure Direct Object References" />
-            <marker date="1493981861000" expanded="true" signature="378:381" ph="..." />
-            <marker date="1493981861000" expanded="true" signature="445:448" ph="..." />
-            <marker date="1493981861000" expanded="true" signature="513:809" ph="Scenario: Execute remote file inclusion" />
-            <marker date="1493981861000" expanded="true" signature="689:692" ph="..." />
-            <marker date="1493981861000" expanded="true" signature="745:748" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,15 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <marker date="1493979115000" expanded="true" signature="133:316" ph="Background" />
-            <marker date="1493979115000" expanded="true" signature="320:583" ph="Scenario: Execute cross site scripting attacks and verify no issues are found" />
-            <marker date="1493979115000" expanded="true" signature="462:465" ph="..." />
-            <marker date="1493979115000" expanded="true" signature="519:522" ph="..." />
-            <marker date="1493979115000" expanded="true" signature="587:893" ph="Scenario: Execute response_splitting attacks" />
-            <marker date="1493979115000" expanded="true" signature="758:761" ph="..." />
-            <marker date="1493979115000" expanded="true" signature="829:832" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,12 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <marker date="1493983359000" expanded="true" signature="139:322" ph="Background" />
-            <marker date="1493983359000" expanded="true" signature="326:595" ph="Scenario: Execute cross site request forgery attacks and verify no issues are found" />
-            <marker date="1493983359000" expanded="true" signature="474:477" ph="..." />
-            <marker date="1493983359000" expanded="true" signature="531:534" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,26 +1105,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
+            <marker date="1493985237000" expanded="true" signature="46:229" ph="Background" />
             <marker date="1493985237000" expanded="true" signature="233:392" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="233:523" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="392:395" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="459:462" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="527:833" ph="Scenario: Execute code injection attacks and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="663:666" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="769:772" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="837:1129" ph="Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="997:1000" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1065:1068" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1133:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="1294:1297" ph="..." />
             <marker date="1493985237000" expanded="true" signature="1357:1427" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1493985237000" expanded="true" signature="1363:1366" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1431:1768" ph="Scenario: Using arachni, look for xml external entity processing vunerabilities" />
+            <marker date="1493985237000" expanded="true" signature="1648:1651" ph="..." />
+            <marker date="1493985237000" expanded="true" signature="1704:1707" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
