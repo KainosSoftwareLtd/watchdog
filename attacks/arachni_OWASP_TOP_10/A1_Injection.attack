@@ -10,7 +10,7 @@ Feature: Tests covering OWASP A1 Injection
   Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=sql_injection* https://<hostname>
+      arachni --checks=sql_injection* https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
 
@@ -18,7 +18,7 @@ Feature: Tests covering OWASP A1 Injection
   Scenario: Execute code injection attacks and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=code_injection,os_cmd_injection,code_injection_timing https://<hostname>
+      arachni --checks=code_injection,os_cmd_injection,code_injection_timing https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
 
@@ -26,7 +26,7 @@ Feature: Tests covering OWASP A1 Injection
   Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=ldap_injection* https://<hostname>
+      arachni --checks=ldap_injection* https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
 
@@ -34,7 +34,7 @@ Feature: Tests covering OWASP A1 Injection
   Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=xpath_injection* https://<hostname>
+      arachni --checks=xpath_injection* https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
 
@@ -43,6 +43,6 @@ Feature: Tests covering OWASP A1 Injection
   # https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing
     When I launch an "arachni" attack with:
       """
-      arachni --checks=xxe https://<hostname>
+      arachni --checks=xxe https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
