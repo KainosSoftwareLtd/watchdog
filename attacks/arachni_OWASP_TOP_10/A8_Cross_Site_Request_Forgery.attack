@@ -11,6 +11,6 @@ Feature: Tests covering OWASP A8 Cross-site Request Forgery
   Scenario: Execute cross site request forgery attacks and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=csrf https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
+      arachni --checks=csrf https://<hostname> --plugin=login_script:script="/data/arachni_login.js"
       """
     Then the output should contain "0 issues were detected."
