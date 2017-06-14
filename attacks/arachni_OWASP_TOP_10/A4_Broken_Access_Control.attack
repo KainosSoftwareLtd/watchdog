@@ -10,7 +10,7 @@ Feature: Tests covering OWASP A4 Broken Access Control
   Scenario: Execute file inclusion ; Insecure Direct Object References
     When I launch an "arachni" attack with:
       """
-      arachni --checks=file_inclusion https://<hostname> --plugin=login_script:script="/data/arachni_login.js"
+      arachni --checks=file_inclusion https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
 
@@ -19,6 +19,6 @@ Feature: Tests covering OWASP A4 Broken Access Control
     # https://www.owasp.org/index.php/Testing_for_Remote_File_Inclusion
     When I launch an "arachni" attack with:
       """
-      arachni --checks=rfi https://<hostname> --plugin=login_script:script="/data/arachni_login.js"
+      arachni --checks=rfi https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."

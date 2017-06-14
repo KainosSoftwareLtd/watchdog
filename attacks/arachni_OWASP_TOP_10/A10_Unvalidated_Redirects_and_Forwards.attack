@@ -10,6 +10,6 @@ Feature: Tests covering OWASP A10 Unvalidated redirects and forwards
   Scenario: Execute unvalidated redirects
     When I launch an "arachni" attack with:
       """
-      arachni --checks=unvalidated_redirect* https://<hostname> --plugin=login_script:script="/data/arachni_login.js"
+      arachni --checks=unvalidated_redirect* https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
