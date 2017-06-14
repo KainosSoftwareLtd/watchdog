@@ -1,11 +1,8 @@
-response = http.post( 'http://0.0.0.0:8080/login',
-                      parameters:     {
-                          'username-input'   => 'llclradmin@nonexistanttest.com',
-                          'password-input' => 'password'
-                      },
-                      mode:           :sync,
-                      update_cookies: true
-)
+browser.goto 'http://192.168.250.9:8080/login'
 
-framework.options.session.check_url     = to_absolute( response.headers.location, response.url )
+browser.text_field( name: 'username' ).set 'llclradmin@nonexistanttest.com'
+browser.text_field( name:'password' ).set 'password'
+browser.button( id:'btnSubmit' ).click
+
+framework.options.session.check_url	= browser.url
 framework.options.session.check_pattern = /Sign out/
