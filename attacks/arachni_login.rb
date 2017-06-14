@@ -4,5 +4,5 @@ browser.text_field( name: 'username' ).set 'llclradmin@nonexistanttest.com'
 browser.text_field( name:'password' ).set 'password'
 browser.button( id:'btnSubmit' ).click
 
-framework.options.session.check_url	= browser.url
+framework.options.session.check_url = browser.url
 framework.options.session.check_pattern = /Sign out/
