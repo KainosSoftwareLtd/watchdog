@@ -1,0 +1,15 @@
+Feature: Tests covering OWASP A7 Missing Functional Level Access Control
+
+  Background:
+    Given "arachni" is installed
+    And the following environment variables:
+      | name     | environment_variable_name |
+      | hostname | GAUNTLT_ATTACK_SUBJECT    |
+
+  @reallyslow
+  Scenario: Execute path traversal ; also part of A4
+    When I launch an "arachni" attack with:
+      """
+      arachni --checks=path_traversal https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
+      """
+    Then the output should contain "0 issues were detected."

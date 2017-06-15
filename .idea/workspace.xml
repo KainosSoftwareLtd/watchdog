@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c08c2350-579a-4d8e-8cb5-8ec031d96ae6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attacks/arachni_login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attacks/arachni_login_old.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A3_Cross_Site_Scripting.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A3_Cross_Site_Scripting.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A4_Broken_Access_Control.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A4_Broken_Access_Control.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A5_Security_Misconfiguration.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A5_Security_Misconfiguration.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A8_Cross_Site_Request_Forgery.attack" afterPath="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A8_Cross_Site_Request_Forgery.attack" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_login.rb" afterPath="$PROJECT_DIR$/attacks/arachni_login.rb" />
+    </list>
+    <ignored path="watchdog.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="watchdog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="A9_Using_Components_with_Known_Vulnerabilities.attack" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/attacks/arachni/path_traversal.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A3_Cross_Site_Scripting.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A5_Security_Misconfiguration.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A4_Broken_Access_Control.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A8_Cross_Site_Request_Forgery.attack" />
+        <option value="$PROJECT_DIR$/attacks/1_OWASP_TOP_10/A1_Injection.attack" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/arachni_login.rb" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A3_Cross_Site_Scripting.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A4_Broken_Access_Control.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A5_Security_Misconfiguration.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A8_Cross_Site_Request_Forgery.attack" />
+        <option value="$PROJECT_DIR$/attacks/arachni_login.rb" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="44" />
+    <option name="y" value="23" />
+    <option name="width" value="1236" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vagrant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="in_prog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attacks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arachni_OWASP_TOP_10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../llc/beta/dev-env/apps/bulk-load" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10" />
+      <recent name="$PROJECT_DIR$/attacks/tmp" />
+      <recent name="$PROJECT_DIR$/attacks" />
+      <recent name="$PROJECT_DIR$/support" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="watchdog" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="watchdog" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="watchdog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c08c2350-579a-4d8e-8cb5-8ec031d96ae6" name="Default" comment="" />
+      <created>1493902122328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493902122328</updated>
+      <workItem from="1493902125736" duration="758000" />
+      <workItem from="1493975443969" duration="5630000" />
+      <workItem from="1493986222985" duration="278000" />
+      <workItem from="1494231588935" duration="1340000" />
+      <workItem from="1494422752639" duration="576000" />
+      <workItem from="1494489862005" duration="764000" />
+      <workItem from="1494492121875" duration="2096000" />
+      <workItem from="1494500090689" duration="11000" />
+      <workItem from="1495032041859" duration="29000" />
+      <workItem from="1495547303983" duration="1014000" />
+      <workItem from="1495615807279" duration="1152000" />
+      <workItem from="1497357311451" duration="898000" />
+      <workItem from="1497428687946" duration="683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15229000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="44" y="23" width="1236" height="709" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34061489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="102" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
+          <folding>
+            <marker date="1497430011000" expanded="true" signature="46:229" ph="Background" />
+            <marker date="1497430011000" expanded="true" signature="233:577" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="392:395" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="513:516" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="581:941" ph="Scenario: Execute code injection attacks and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="717:720" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="877:880" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="945:1291" ph="Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="1105:1108" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1227:1230" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1295:1643" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="1456:1459" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1579:1582" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1647:2038" ph="Scenario: Using arachni, look for xml external entity processing vunerabilities" />
+            <marker date="1497430011000" expanded="true" signature="1864:1867" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1974:1977" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="109" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
+          <folding>
+            <marker date="1497430011000" expanded="true" signature="46:229" ph="Background" />
+            <marker date="1497430011000" expanded="true" signature="233:577" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="392:395" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="513:516" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="581:941" ph="Scenario: Execute code injection attacks and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="717:720" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="877:880" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="945:1291" ph="Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="1105:1108" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1227:1230" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1295:1643" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="1456:1459" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1579:1582" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1647:2038" ph="Scenario: Using arachni, look for xml external entity processing vunerabilities" />
+            <marker date="1497430011000" expanded="true" signature="1864:1867" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1974:1977" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="106" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in_prog/generic/baseline.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni/baseline.attack" />
+    <entry file="file://$PROJECT_DIR$/attacks/arachni/path_traversal.attack" />
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/.vagrant/machines/run/virtualbox/action_provision">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/.vagrant/machines/run/virtualbox/action_set_name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/.vagrant/machines/run/virtualbox/creator_uid">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A5_Security_Misconfiguration.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="142" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="110" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A8_Cross_Site_Request_Forgery.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="100" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A2_Broken_Authentication_and_Session_Management.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="112" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A3_Cross_Site_Scripting.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="114" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A4_Broken_Access_Control.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497429931000" expanded="true" signature="59:71305" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="98:1158" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="192:672" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1205:1262" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1379:1433" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1472:2015" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1483:2000" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1564:1988" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1628:1974" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1694:1957" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="1744:1935" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="2049:2129" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="2170:2269" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="2216:2254" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="2309:4365" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="2343:4350" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="2356:4336" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="4599:4696" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="4736:4903" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="4978:5377" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5410:10503" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5479:5802" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5814:10488" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5844:10386" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5862:10372" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5879:6124" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="5906:6106" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="6141:6607" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="6168:6368" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="6395:6589" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="6624:7310" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="6651:6851" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="6878:7072" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="7099:7292" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="7327:8013" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="7354:7554" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="7581:7775" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="7802:7995" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8030:8716" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8057:8257" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8284:8478" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8505:8698" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8733:9652" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8760:8960" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="8987:9181" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="9208:9401" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="9428:9634" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="9669:10353" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="9696:9896" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="9923:10117" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="10144:10335" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="10544:11069" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="11105:11416" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="11143:11401" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="11448:46628" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="11566:11761" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="11865:12893" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="12687:12764" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="12995:13972" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="13857:13934" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="14042:14321" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="14401:15032" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="15105:16042" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="15282:15387" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="15298:15371" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="15909:15970" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="16116:17326" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="16293:16398" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="16309:16382" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="17071:17132" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="17455:17493" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="17596:18346" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="18440:20689" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="19275:19420" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="19317:19401" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="20787:21648" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="20902:20966" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="21740:23391" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="22444:22806" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="22473:22790" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="23601:24171" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="23682:24044" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="23711:24028" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="24257:24736" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="24288:24698" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="24522:24559" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="24593:24630" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="24826:25216" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="25321:27221" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="27289:28105" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="27972:28033" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="28218:29001" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="28868:28929" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="29088:29244" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="29326:29985" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="30078:30116" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="30203:30721" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="30834:31304" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="31430:31468" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="31560:32176" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="32270:32886" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="32973:33747" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="33088:33152" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="33817:34108" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="34194:35176" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="34885:35030" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="34927:35011" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="35283:35464" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="35534:36623" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="36368:36429" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="36738:37794" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="37539:37600" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="37907:39544" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="38727:38872" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="38769:38853" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="39608:40175" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="40259:40441" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="40520:40671" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="40762:41105" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="41187:41225" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="41316:41354" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="41424:42315" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="42386:43277" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="43349:44328" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="44400:45429" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="45499:46613" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="46692:46759" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="46792:47921" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="46853:47890" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="47962:48033" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="48072:54003" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="48187:53988" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54040:54145" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54187:54374" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54237:54272" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54324:54359" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54424:54488" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54526:54592" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54634:71294" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54723:56769" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54785:56756" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="54831:56738" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="55000:56721" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="56858:58904" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="56920:58891" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="56966:58873" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="57135:58856" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="58969:59267" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59031:59254" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59076:59236" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59332:59630" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59394:59617" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59439:59599" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59695:59993" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59757:59980" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="59802:59962" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60082:60381" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60144:60368" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60190:60350" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60470:60774" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60532:60761" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60578:60743" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60863:61162" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60925:61149" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="60971:61131" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="61227:61523" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="61289:61510" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="61335:61492" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="61612:61911" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="61674:61898" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="61720:61880" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62000:62302" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62062:62289" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62108:62271" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62374:62668" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62436:62655" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62480:62637" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="62939:63241" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63001:63228" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63047:63210" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63292:63587" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63354:63574" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63399:63556" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63685:63979" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63747:63966" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="63791:63948" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64076:64370" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64138:64357" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64182:64339" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64463:64757" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64525:64744" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64569:64726" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64817:65119" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64879:65106" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="64925:65088" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="65224:65529" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="65286:65516" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="65332:65498" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="65646:65951" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="65708:65938" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="65754:65920" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66066:66368" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66128:66355" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66174:66337" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66474:66779" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66536:66766" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66582:66748" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66903:67208" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="66965:67195" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67011:67177" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67308:67613" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67370:67600" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67416:67582" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67714:68016" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67776:68003" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="67822:67985" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68081:68383" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68143:68370" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68189:68352" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68472:70515" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68534:70502" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68580:70484" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="68746:70467" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="70580:70901" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="70642:70888" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="70688:70870" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="70961:71279" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="71023:71266" ph="..." />
+            <marker date="1497429931000" expanded="true" signature="71069:71248" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="109" />
+          <folding>
+            <marker date="1497430011000" expanded="true" signature="46:229" ph="Background" />
+            <marker date="1497430011000" expanded="true" signature="233:577" ph="Scenario: Using arachni, look for SQL injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="392:395" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="513:516" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="581:941" ph="Scenario: Execute code injection attacks and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="717:720" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="877:880" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="945:1291" ph="Scenario: Using arachni, look for LDAP injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="1105:1108" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1227:1230" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1295:1643" ph="Scenario: Using arachni, look for xpath injection vulnerabilities and verify no issues are found" />
+            <marker date="1497430011000" expanded="true" signature="1456:1459" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1579:1582" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1647:2038" ph="Scenario: Using arachni, look for xml external entity processing vunerabilities" />
+            <marker date="1497430011000" expanded="true" signature="1864:1867" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="1974:1977" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
+          <folding>
+            <marker date="1497430011000" expanded="true" signature="72:255" ph="Background" />
+            <marker date="1497430011000" expanded="true" signature="259:555" ph="Scenario: Execute unvalidated redirects" />
+            <marker date="1497430011000" expanded="true" signature="363:366" ph="..." />
+            <marker date="1497430011000" expanded="true" signature="491:494" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in_prog/A6_Sensitive_Data_Exposure.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
