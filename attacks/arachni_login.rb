@@ -1,4 +1,7 @@
-login_url = 'http://192.168.250.9:8080/login'
+hostname = 'http://192.168.250.9:8080'
+
+login_url = hostname + '/login'
+
 =begin
 browser.goto login_url
 
