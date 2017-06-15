@@ -1,23 +1,29 @@
+# Documentation http://support.arachni-scanner.com/kb/general-use/logging-in-and-maintaining-a-valid-session
+
 hostname = 'http://192.168.250.9:8080'
+
+username = 'llclradmin@nonexistanttest.com'
+password = 'password'
 
 login_url = hostname + '/login'
 
+# With browser (slow)
 =begin
 browser.goto login_url
 
-browser.text_field( name: 'username' ).set 'llclradmin@nonexistanttest.com'
-browser.text_field( name:'password' ).set 'password'
+browser.text_field( name: 'username' ).set username
+browser.text_field( name:'password' ).set password
 browser.button( id:'btnSubmit' ).click
 
 framework.options.session.check_url = browser.url
 framework.options.session.check_pattern = /Sign out/
 =end
 
-#=begin
+# Without browser (fast)
 response = http.post( login_url,
                       parameters:     {
-                          'username'   => 'llclradmin@nonexistanttest.com',
-                          'password' => 'password'
+                          'username'   => username,
+                          'password' => password
                       },
                       mode:           :sync,
                       update_cookies: true,
@@ -25,4 +31,3 @@ response = http.post( login_url,
 )
 framework.options.session.check_url = to_absolute( response.headers.location, response.url ) #'http://192.168.250.9:8080/login'
 framework.options.session.check_pattern = '/.*'
-#=end

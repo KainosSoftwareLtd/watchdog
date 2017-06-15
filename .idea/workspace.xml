@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c08c2350-579a-4d8e-8cb5-8ec031d96ae6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attacks/session_idea.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attacks/arachni_login.rb" afterPath="$PROJECT_DIR$/attacks/arachni_login.rb" />
     </list>
     <ignored path="watchdog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,6 +21,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="watchdog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="arachni_login.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,8 +68,8 @@
         <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack" />
         <option value="$PROJECT_DIR$/vagrant/build/Dockerfile" />
         <option value="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A8_Cross_Site_Request_Forgery.attack" />
-        <option value="$PROJECT_DIR$/attacks/arachni_login.rb" />
         <option value="$PROJECT_DIR$/attacks/session_idea.rb" />
+        <option value="$PROJECT_DIR$/attacks/arachni_login.rb" />
       </list>
     </option>
   </component>
@@ -65,7 +80,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
+    <option name="x" value="5" />
     <option name="y" value="23" />
     <option name="width" value="1292" />
     <option name="height" value="704" />
@@ -95,9 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,20 +171,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="in_prog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watchdog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watchdog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="attacks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -214,6 +213,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,11 +227,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/attacks" />
       <recent name="$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10" />
+      <recent name="$PROJECT_DIR$/in progress" />
       <recent name="$PROJECT_DIR$/in_prog" />
       <recent name="$PROJECT_DIR$/attacks/tmp" />
-      <recent name="$PROJECT_DIR$/attacks" />
-      <recent name="$PROJECT_DIR$/support" />
     </key>
   </component>
   <component name="RunManager">
@@ -995,15 +996,20 @@
       <workItem from="1497457041169" duration="2654000" />
       <workItem from="1497515819650" duration="2000" />
       <workItem from="1497516442680" duration="2250000" />
+      <workItem from="1497527799635" duration="120000" />
+      <workItem from="1497527942722" duration="14000" />
+      <workItem from="1497527965837" duration="20000" />
+      <workItem from="1497527997413" duration="12000" />
+      <workItem from="1497528027310" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29683000" />
+    <option name="totallyTimeSpent" value="30104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="23" width="1292" height="704" extended-state="0" />
-    <editor active="false" />
+    <frame x="5" y="23" width="1292" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1016,9 +1022,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37074304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37074304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1029,6 +1034,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -1050,16 +1056,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack">
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
-          <folding>
-            <marker date="1497519340000" expanded="true" signature="72:255" ph="Background" />
-            <marker date="1497519340000" expanded="true" signature="259:554" ph="Scenario: Execute unvalidated redirects" />
-            <marker date="1497519340000" expanded="true" signature="363:366" ph="..." />
-            <marker date="1497519340000" expanded="true" signature="490:493" ph="..." />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="32" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,12 +1092,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
-          <folding>
-            <marker date="1497519340000" expanded="true" signature="72:255" ph="Background" />
-            <marker date="1497519340000" expanded="true" signature="259:554" ph="Scenario: Execute unvalidated redirects" />
-            <marker date="1497519340000" expanded="true" signature="363:366" ph="..." />
-            <marker date="1497519340000" expanded="true" signature="490:493" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A10_Unvalidated_Redirects_and_Forwards.attack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -1104,13 +1130,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack" />
     <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A1_Injection.attack">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1188,13 +1208,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/in_prog/generic/baseline.attack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/in_prog/generic/baseline.attack" />
     <entry file="file://$PROJECT_DIR$/attacks/arachni/baseline.attack" />
     <entry file="file://$PROJECT_DIR$/attacks/arachni/path_traversal.attack" />
     <entry file="file://$PROJECT_DIR$/attacks/arachni_OWASP_TOP_10/A7_Missing_Function_Level_Access_Control.attack">
@@ -1235,20 +1249,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/in_prog/A6_Sensitive_Data_Exposure.attack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/in_prog/A6_Sensitive_Data_Exposure.attack" />
+    <entry file="file://$PROJECT_DIR$/in_prog/A9_Using_Components_with_Known_Vulnerabilities.attack" />
     <entry file="file://$PROJECT_DIR$/vagrant/build/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1267,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="110" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,12 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <marker date="1497519340000" expanded="true" signature="72:255" ph="Background" />
-            <marker date="1497519340000" expanded="true" signature="259:554" ph="Scenario: Execute unvalidated redirects" />
-            <marker date="1497519340000" expanded="true" signature="363:366" ph="..." />
-            <marker date="1497519340000" expanded="true" signature="490:493" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,29 +1304,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <marker date="1497519340000" expanded="true" signature="138:321" ph="Background" />
-            <marker date="1497519340000" expanded="true" signature="325:647" ph="Scenario: Execute cross site request forgery attacks and verify no issues are found" />
-            <marker date="1497519340000" expanded="true" signature="473:476" ph="..." />
-            <marker date="1497519340000" expanded="true" signature="583:586" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/attacks/session_idea.rb" />
     <entry file="file://$PROJECT_DIR$/attacks/arachni_login.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <marker date="1497519340000" expanded="true" signature="46:353" ph="=begin ... =end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attacks/session_idea.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
       </provider>
