@@ -10,7 +10,7 @@ Feature: Tests covering OWASP A5 Security Misconfiguration
   Scenario: Execute source code disclosure attacks and verify no code is leaked
     When I launch an "arachni" attack with:
       """
-      arachni --checks=source_code_disclosure https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
+      arachni --checks=source_code_disclosure http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
       Then the output should contain "0 issues were detected."
 
@@ -18,6 +18,6 @@ Feature: Tests covering OWASP A5 Security Misconfiguration
   Scenario: Execute file based attacks and verify no issues are found
     When I launch an "arachni" attack with:
       """
-      arachni --checks=common_files https://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
+      arachni --checks=common_files http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
       """
     Then the output should contain "0 issues were detected."
