@@ -7,6 +7,7 @@ RUN yum makecache && yum install -y curl \
   nmap \
   wget \
   unzip \
+  bzip2 \
   tar  \
   nmap \
   curl \
@@ -42,6 +43,14 @@ RUN cd /tmp && wget -nv https://github.com/sqlmapproject/sqlmap/archive/0.6.2.ta
 RUN cd /tmp && wget -nv https://www.github.com/Arachni/arachni/releases/download/v1.3.2/arachni-1.3.2-0.5.9-linux-x86_64.tar.gz && \
     tar xzf arachni-1.3.2-0.5.9-linux-x86_64.tar.gz && \
     mv arachni-1.3.2-0.5.9 /opt/arachni
+
+# INSTALL PHANTOMJS
+RUN mkdir -p /opt/phantomjs/
+RUN cd /tmp && wget -nv https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2 && \
+    tar -xvf phantomjs-2.1.1-linux-x86_64.tar.bz2 && \
+    mv phantomjs-2.1.1-linux-x86_64 /opt/phantomjs/
+
+ENV PATH $PATH:/opt/phantomjs/phantomjs-2.1.1-linux-x86_64/bin/
 
 # Install Garmr
 RUN cd /opt && git clone https://github.com/freddyb/Garmr.git && \
