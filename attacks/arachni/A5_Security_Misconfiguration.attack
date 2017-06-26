@@ -7,7 +7,7 @@ Feature: Tests covering OWASP A5 Security Misconfiguration
       | hostname | GAUNTLT_ATTACK_SUBJECT    |
 
   @reallyslow
-  Scenario: Execute source code disclosure attacks and verify no code is leaked
+  Scenario: Using arachni, execute source code disclosure attacks and verify no code is leaked
     When I launch an "arachni" attack with:
       """
       arachni --checks=source_code_disclosure http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
@@ -15,7 +15,7 @@ Feature: Tests covering OWASP A5 Security Misconfiguration
       Then the output should contain "0 issues were detected."
 
   @reallyslow
-  Scenario: Execute file based attacks and verify no issues are found
+  Scenario: Using arachni, execute common file attacks and verify no issues are found
     When I launch an "arachni" attack with:
       """
       arachni --checks=common_files http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"

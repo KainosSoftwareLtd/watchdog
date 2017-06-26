@@ -7,7 +7,7 @@ Feature: Tests covering OWASP A4 Broken Access Control
       | hostname | GAUNTLT_ATTACK_SUBJECT    |
 
   @reallyslow
-  Scenario: Execute file inclusion ; Insecure Direct Object References
+  Scenario: Using arachni, look for file inclusion vulnerabilities and verify no issues are found
     When I launch an "arachni" attack with:
       """
       arachni --checks=file_inclusion http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
@@ -15,7 +15,7 @@ Feature: Tests covering OWASP A4 Broken Access Control
     Then the output should contain "0 issues were detected."
 
   @reallyslow
-  Scenario: Execute remote file inclusion
+  Scenario: Using arachni, look for remote file inclusion vulnerabilities and verify no issues are found
     # http://www.owasp.org/index.php/Testing_for_Remote_File_Inclusion
     When I launch an "arachni" attack with:
       """
