@@ -1,0 +1,25 @@
+Feature: Tests covering OWASP A3 Cross-site scripting
+  http://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS)
+
+  Background:
+    Given "arachni" is installed
+    And the following environment variables:
+      | name     | environment_variable_name |
+      | hostname | GAUNTLT_ATTACK_SUBJECT    |
+
+  @reallyslow
+  Scenario: Using arachni, look for cross site scripting vulnerabilities and verify no issues are found
+    When I launch an "arachni" attack with:
+      """
+      arachni --checks=xss* http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
+      """
+    Then the output should contain "0 issues were detected."
+
+  @reallyslow
+  Scenario: Using arachni, look for response_splitting vulnerabilities and verify no issues are found
+    # http://www.owasp.org/index.php/HTTP_Response_Splitting
+    When I launch an "arachni" attack with:
+      """
+      arachni --checks=response_splitting http://<hostname> --plugin=login_script:script="/data/arachni_login.rb"
+      """
+    Then the output should contain "0 issues were detected."
